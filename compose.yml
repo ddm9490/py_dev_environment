@@ -2,7 +2,7 @@ services:
   jupyter:
     image: jupyter_env_image
     build: .
-    container_name: dev_env
+    
 
     ports:
       - "8888:8888"
